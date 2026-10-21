@@ -8,6 +8,7 @@ adventures = [
     "You wake up on a train with no memory of boarding it.",
 ]
 
-print("\nYour adventure begins...\n")
+name = input("What is your name, adventurer? ")
+print(f"\nYour adventure begins, {name}...\n")
 print(random.choice(adventures))
 print()
